@@ -100,6 +100,10 @@ ol {
   gap: 5px;
 }
 
+.search-form__label:hover {
+  text-decoration: underline; 
+}
+
 .search-form__textfield {
   min-width: 225px;
   appearance: none;
@@ -123,7 +127,6 @@ ol {
   outline-offset: 1px;
 }
 
-
 .search-form__textfield:has(:focus) {
   outline: none;
 }
@@ -136,10 +139,6 @@ ol {
 
 .content__details {
   flex: 1;
-}
-
-.search-form__label:hover {
-  text-decoration: underline; 
 }
 
 .search-form__pseudo-checkbox {
